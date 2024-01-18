@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+
+  #main{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+
+
+
+  #repositories {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .repo {
+    border: 1px solid black;
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  #loadMoreBtn {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .pagination{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+  }
+
+  button{
+    padding:10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
